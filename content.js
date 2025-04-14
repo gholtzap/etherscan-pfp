@@ -167,7 +167,8 @@ chrome.storage.sync.get({ iconType: "mandala" }, (data) => {
             '#spanTxHash',
             '#ContentPlaceHolder1_trContract > div > a:nth-child(1) > span',
             '#transactions a.hash-tag.myFnExpandBox_searchVal',
-            '#transactions > div > div.table-responsive > table > tbody > tr > td:nth-child(11) > div > div > span > span'
+            '#transactions > div > div.table-responsive > table > tbody > tr > td:nth-child(11) > div > div > span > span',
+            '#transactions > div > div.table-responsive > table > tbody > tr > td:nth-child(11) > div > span > span'
         ];
 
         const combinedSelector = selectors.join(',');
