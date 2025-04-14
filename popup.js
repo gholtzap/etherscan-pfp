@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const select = document.getElementById('icon-type');
   
-    chrome.storage.sync.get({ iconType: 'mandala' }, (data) => {
+    chrome.storage.sync.get({ iconType: 'identicon' }, (data) => {
       select.value = data.iconType;
     });
   
